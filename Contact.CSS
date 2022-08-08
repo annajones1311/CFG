@@ -1,0 +1,82 @@
+/* CONTACT FORM */
+
+input[type=text],
+input[type=tel],
+textarea {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: medium
+    height:100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: rgb(14, 216, 252);
+    cursor: pointer;
+    padding: 15pt;
+
+
+    border-radius: 25px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+    margin: 10px;
+    border: none;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+
+}
+
+input[type=submit]:hover {
+    background-color: rgb(42, 164, 185);
+}
+
+
+.contact-form {
+    max-width: 900px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 0px;
+}
+
+.red-text {
+    color: red;
+}
+
+.contact-label {
+    min-width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 17px 20px;
+}
+
+.consent-label {
+    font-size: 14px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-form label {
+        min-width: auto;
+        display: block;
+    }
+
+    input[type=text],
+    input[type=tel],
+    textarea {
+        width: -webkit-fill-available;
+    }
+}
